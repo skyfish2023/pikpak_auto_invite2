@@ -22,7 +22,8 @@ def index():
 
 @app.route('/api/run-script', methods=['POST'])
 def run_script():
-    invite_code = request.json.get('invite_code')
+    # invite_code = request.json.get('invite_code')
+    invite_code = '85203670'
     print('现在是6.0版本好吧!!!')
     print('强烈建议replit运行!!!')
     print('成功与否全凭运气, 成功率较高, 请自行测试, 祝使用愉快!')
